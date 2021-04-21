@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>{{$title}}</h1>
-    <p>This is the Laravel application from the "Laravel From Scratch" Youtube series</p>
+        <div class="jumbotron text-center">
+            <h1>Bem-vindo ao Laravel!</h1>
+            <p>Essa é uma aplicação Laravel para teste.</p>
 @endsection
