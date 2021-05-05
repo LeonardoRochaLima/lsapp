@@ -24,4 +24,9 @@ class PagesController extends Controller
         );
         return view('pages.services')->with($data);
     }
+
+    public function cadastro(){
+        $title = 'Cadastro de Empresas';
+        return view('pages.cadastro')->with('title', $title);
+    }
 }
