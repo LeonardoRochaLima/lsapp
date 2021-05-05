@@ -15,7 +15,7 @@
                 <li><a href="/about">Sobre</a></li>
                 <li><a href="/services">Serviços</a></li>
                 <li><a href="/posts">Blog</a></li>
-                <li><a href="/cadastro">Cadastro de Empresas</a></li>
+                <li><a href="/cadastro_empresas">Cadastro de Empresas</a></li>
             </ul>
         </div>
     </div>

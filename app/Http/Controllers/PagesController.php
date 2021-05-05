@@ -25,8 +25,8 @@ class PagesController extends Controller
         return view('pages.services')->with($data);
     }
 
-    public function cadastro(){
+    public function cadastro_empresas(){
         $title = 'Cadastro de Empresas';
-        return view('pages.cadastro')->with('title', $title);
+        return view('pages.cadastro_empresas')->with('title', $title);
     }
 }

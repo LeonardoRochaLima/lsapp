@@ -26,6 +26,6 @@ Route::get('/about', function (){
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
-Route::get('/cadastro', 'PagesController@cadastro');
+Route::get('/cadastro_empresas', 'PagesController@cadastro_empresas');
 
 Route::resource('posts', 'PostController');
