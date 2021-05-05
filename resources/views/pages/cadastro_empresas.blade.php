@@ -5,85 +5,85 @@
     <h3>1. Empresa Desenvolvedora Requerente: </h3>
     <div class="title-body">
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-6">
                 <label class="control-label">1.1 Razão Social</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form-group col-md-3">
+            <div class="form-group col-md-6">
                 <label class="control-label">1.2 Nome Fantasia</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-6">
                 <label class="control-label">1.3 Endereço</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-6">
                 <label class="control-label">1.4 Bairro</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.5 Cidade</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.6 UF</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.7 CEP</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-6">
                 <label class="control-label">1.8 Telefone</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-6">
                 <label class="control-label">1.9 Celular</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.10 CNPJ</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.11 Inscrição Estadual</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.11 Inscrição Municipal</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.12 Responsável pela Assinatura</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.13 CPF do Responsável</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form group col-md-3">
+            <div class="form group col-md-4">
                 <label class="control-label">1.14 RG do Responsável</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-12">
                 <label class="control-label">1.15 Email do responsável</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form group col-md-3">
+            <div class="form group col-md-12">
                 <label>1.16 Responsável pela Acompanhamento dos Testes</label>
                 <input class="form-control" type="text">
             </div>
@@ -93,37 +93,38 @@
     <h3>2. Órgão Técnico Credenciado: </h3>
     <div class="title-body">
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-12">
                 <label class="control-label">2.1 Identificação: </label>
             </div>
         </form>
+    </div>
     <h3>3. Identificação do Programa Aplicativo Fiscal (PAF-ECF): </h3>
     <div class="title-body">
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-12">
                 <label class="control-label">3.1 Nome Comercial</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-6">
                 <label class="control-label">3.2 Versão</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form-group col-md-3">
+            <div class="form-group col-md-6">
                 <label class="control-label">3.3 Data da Versão</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-12">
                 <label class="control-label">3.3 Principal Arquivo Executável</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <br>
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-12">
                 <label class="control-label">3.4 Perfis a serem homologados</label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -140,15 +141,15 @@
     <h3>4. Características do Programa Aplicativo FIscal: </h3>
     <div class="title-body">
         <form class="row">
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-4">
                 <label class="control-label">4.1 Linguagem de Programação</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-4">
                 <label class="control-label">4.2 Sistem Operacional</label>
                 <input class="form-control" type="text">
             </div>
-            <div class="form-gorup col-md-3">
+            <div class="form-gorup col-md-4">
                 <label class="control-label">4.3 Banco de Dados</label>
                 <input class="form-control" type="text">
             </div>
@@ -178,7 +179,8 @@
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Não Concomitante com Impressão de DAV.</label>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de Pré-Venda.</label>
+                    <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de
+                        Pré-Venda.</label>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de Conta
                         Cliente.</label>
@@ -287,7 +289,8 @@
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM DAV-OS.</label>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM CONTA DE CLIENTE.</label>
+                    <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM CONTA DE
+                        CLIENTE.</label>
                     <br>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
@@ -312,7 +315,8 @@
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Posto de Pedágio.</label>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Estacionamento, Motéis e Similares, que pratiquem o
+                    <label class="form-check-label" for="defaultCheck1">Estacionamento, Motéis e Similares, que
+                        pratiquem o
                         Controle de Tráfego de Veículos ou Pessoas.</label>
                     <br>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -322,113 +326,122 @@
                     <label class="form-check-label" for="defaultCheck1">Demais Atividades.</label>
                     <br>
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Estabelecimento Enquadrado no SIMPLES NACIONAL (Art.
+                    <label class="form-check-label" for="defaultCheck1">Estabelecimento Enquadrado no SIMPLES NACIONAL
+                        (Art.
                         5º do Ato COPETE da ER-PEF-ECF).</label>
                 </div>
             </div>
         </form>
-        <br>
-        <h3>5. Identificação do Sistema de Gestão ou Retaguarda que executa pelo menos um dos requisitos atribuídos ao PAF-ECF e que, obrigatória e exclusivamente, funciona integrado ao PAF-ECF: </h3>
-        <div class="title-body">
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">5.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">5.2 Nome do Sistema: </label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">5.3 Requisitos(s) Executado(s):</label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-        </div>
-        <br>
-        <h3>6. Identificação dos Sistemas de PED (SPED/SINTEGRA/DOCUMENTOS/LIVROS) que Funcionam Integrados ao PAF-ECF: </h3>
-        <div class="title-body">
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">6.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">6.2 Nome do Sistema: </label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">6.3 Nome do arquivo Executável:</label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-        </div>
-        <br>
-        <h3>7. Identificação dos Sistemas de PED que geram a NF-e e funcionam integrados ao PAF-ECF: </h3>
-        <div class="title-body">
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">7.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">7.2 Nome do Sistema: </label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">7.3 Nome do arquivo Executável:</label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-        </div>
-        <br>
-        <h3>8. Identificação dos Equipamentos ECF Utilizados para a Análise Funcional: </h3>
-        <div class="title-body">
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">8.1 Marca:</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">8.2 Modelo:</label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-        </div>
-        <h3>9. Relação de marcas e modelos de equipamentos ECF compatíveis com o PAF-ECF: </h3>
-        <div class="title-body">
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">8.1 Marca:</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">8.2 Modelo:</label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-        </div>
-        <h3>10. Introdução: </h3>
-        <div class="title-body">
-            <form class="row">
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">8.1 Marca:</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-3">
-                    <label class="control-label">8.2 Modelo:</label>
-                    <input class="form-control" type="text">
-                </div>
-            </form>
-            <br>
-        </div>
-        <div class="form-group col-md-4 align-self-end">
-            <button class="btn btn-primary" type="button"> <i class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
-        </div>
-    @endsection
+    </div>
+    <br>
+    <h3>5. Identificação do Sistema de Gestão ou Retaguarda que executa pelo menos um dos requisitos atribuídos ao
+        PAF-ECF e que, obrigatória e exclusivamente, funciona integrado ao PAF-ECF: </h3>
+    <div class="title-body">
+        <form class="row">
+            <div class="form-gorup col-md-6">
+                <label class="control-label">5.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-gorup col-md-6">
+                <label class="control-label">5.2 Nome do Sistema: </label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+        <form class="row">
+            <div class="form-gorup col-md-12">
+                <label class="control-label">5.3 Requisitos(s) Executado(s):</label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+    </div>
+    <br>
+    <h3>6. Identificação dos Sistemas de PED (SPED/SINTEGRA/DOCUMENTOS/LIVROS) que Funcionam Integrados ao PAF-ECF:
+    </h3>
+    <div class="title-body">
+        <form class="row">
+            <div class="form-gorup col-md-6">
+                <label class="control-label">6.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-gorup col-md-6">
+                <label class="control-label">6.2 Nome do Sistema: </label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+        <form class="row">
+            <div class="form-gorup col-md-12">
+                <label class="control-label">6.3 Nome do arquivo Executável:</label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+    </div>
+    <br>
+    <h3>7. Identificação dos Sistemas de PED que geram a NF-e e funcionam integrados ao PAF-ECF: </h3>
+    <div class="title-body">
+        <form class="row">
+            <div class="form-gorup col-md-6">
+                <label class="control-label">7.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-gorup col-md-6">
+                <label class="control-label">7.2 Nome do Sistema: </label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+        <form class="row">
+            <div class="form-gorup col-md-12">
+                <label class="control-label">7.3 Nome do arquivo Executável:</label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+    </div>
+    <br>
+    <h3>8. Identificação dos Equipamentos ECF Utilizados para a Análise Funcional: </h3>
+    <div class="title-body">
+        <form class="row">
+            <div class="form-gorup col-md-6">
+                <label class="control-label">8.1 Marca:</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-gorup col-md-6">
+                <label class="control-label">8.2 Modelo:</label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+    </div>
+    <h3>9. Relação de marcas e modelos de equipamentos ECF compatíveis com o PAF-ECF: </h3>
+    <div class="title-body">
+        <form class="row">
+            <div class="form-gorup col-md-6">
+                <label class="control-label">8.1 Marca:</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-gorup col-md-6">
+                <label class="control-label">8.2 Modelo:</label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+    </div>
+    <h3>10. Introdução: </h3>
+    <div class="title-body">
+        <form class="row">
+            <div class="form-gorup col-md-6">
+                <label class="control-label">8.1 Marca:</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-gorup col-md-6">
+                <label class="control-label">8.2 Modelo:</label>
+                <input class="form-control" type="text">
+            </div>
+        </form>
+    </div>
+    <br>
+    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+    <label class="form-check-label" for="defaultCheck1">DECLARO PARA OS DEVIDOS FINS, QUE AS INFORMAÇÕES
+        CONTIDAS NESTE FORMULÁRIO SÃO VERDADEIRAS E ESTOU CIENTE QUE SERÃO TRASNCRITAS PARA O "LAUDO DE ANÁLISE
+        FUNCIONAL DO PAF-ECF".</label>
+    <br>
+    <div class="form-group col-md-4 align-self-end">
+        <button class="btn btn-primary" type="button"> <i class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
+    </div>
+@endsection
