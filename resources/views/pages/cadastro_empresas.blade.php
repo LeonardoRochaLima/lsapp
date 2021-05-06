@@ -137,7 +137,6 @@
             </div>
         </form>
     </div>
-    <br>
     <h3>4. Características do Programa Aplicativo FIscal: </h3>
     <div class="title-body">
         <form class="row">
@@ -156,7 +155,7 @@
         </form>
         <br>
         <form class="row">
-            <div>
+            <div class="form-gorup col-md-12">
                 <label class="control-label">4.4 Tipo de Desenvolvimento</label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -167,10 +166,11 @@
                     <label class="form-check-label" for="defaultCheck1">Exclusivo Tercerizado</label>
                 </div>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
+    </div>
+    </form>
+    <br>
+    <form class="row">
+            <div class="form-gorup col-md-12">
                 <label class="control-label">4.5 Forma de impressão de um item em cupom fiscal (Concomitância com
                     dispositivos de visualização do registro do item): </label>
                 <div class="form-check">
@@ -194,145 +194,144 @@
                     <label class="form-check-label" for="defaultCheck1">DAV - Impresso em ECF.</label>
                 </div>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
-                <label class="control-label">4.6 Tipo de Funcionamento: </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Exclusivamente Stand Alone</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Em rede</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Parametrizável</label>
-                </div>
+    </form>
+    <br>
+    <form class="row">
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.6 Tipo de Funcionamento: </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Exclusivamente Stand Alone</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Em rede</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Parametrizável</label>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
-                <label class="control-label">4.7 Geração do Arquivo SINTEGRA ou EFD(SPED): </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Pelo PAF</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Pelo Sistema de Retaguarda</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Pelo Sistema PED ou EFD</label>
-                </div>
+        </div>
+    </form>
+    <br>
+    <form class="row">
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.7 Geração do Arquivo SINTEGRA ou EFD(SPED): </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Pelo PAF</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Pelo Sistema de Retaguarda</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Pelo Sistema PED ou EFD</label>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
-                <label class="control-label">4.8 Emite Nota Fiscal Eletrônica - NF-e: </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Sim</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não</label>
-                </div>
+        </div>
+    </form>
+    <br>
+    <form class="row">
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.8 Emite Nota Fiscal Eletrônica - NF-e: </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Sim</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Não</label>
             </div>
-            <div>
-                <label class="control-label">4.9 Emite Nota Fiscal Consumidor Eletrônica - NFC-e: </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Sim</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não</label>
-                </div>
+        </div>
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.9 Emite Nota Fiscal Consumidor Eletrônica - NFC-e: </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Sim</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Não</label>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
-                <label class="control-label">4.10 Tratamento de Interrupção durante a emissão do cupom fiscal: </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Recuperação de Dados.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Cancelamento Automático.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Bloqueio de Funções.</label>
-                </div>
+        </div>
+    </form>
+    <br>
+    <form class="row">
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.10 Tratamento de Interrupção durante a emissão do cupom fiscal: </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Recuperação de Dados.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Cancelamento Automático.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Bloqueio de Funções.</label>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
-                <label class="control-label">4.11 Integração do Programa Aplicativo Fiscal: </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Com Sistema de Gestão ou Retaguarda.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Com Sistema PED.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Com Ambos.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não Integrado.</label>
-                </div>
+        </div>
+    </form>
+    <br>
+    <form class="row">
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.11 Integração do Programa Aplicativo Fiscal: </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Com Sistema de Gestão ou Retaguarda.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Com Sistema PED.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Com Ambos.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Não Integrado.</label>
             </div>
-        </form>
-        <br>
-        <form class="row">
-            <div>
-                <label class="control-label">4.12 Aplicações Especiais: </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Posto Revendedor de Combustível COM sistema de
-                        Interligação de Bombas.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Posto Revendedor de Combustível SEM sistema de
-                        Interligação de Bombas.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM DAV-OS.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM CONTA DE
-                        CLIENTE.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
-                        utilização de ECF-RESTAURANTE e balança interligada.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
-                        utilização de ECF-NORMAL e balança interligada.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
-                        utilização de ECF-RESTAURANTE SEM balança interligada.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
-                        utilização de ECF-NORMAL SEM balança interligada.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Farmácia de Manipulação.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Transporte de Passageiros.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Posto de Pedágio.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Estacionamento, Motéis e Similares, que
-                        pratiquem o
-                        Controle de Tráfego de Veículos ou Pessoas.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Prestador de Serviço de Cinema, Espetáculos ou
-                        Similares.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Demais Atividades.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Estabelecimento Enquadrado no SIMPLES NACIONAL
-                        (Art.
-                        5º do Ato COPETE da ER-PEF-ECF).</label>
-                </div>
+        </div>
+    </form>
+    <br>
+    <form class="row">
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.12 Aplicações Especiais: </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Posto Revendedor de Combustível COM sistema de
+                    Interligação de Bombas.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Posto Revendedor de Combustível SEM sistema de
+                    Interligação de Bombas.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM DAV-OS.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Oficina de Conserto COM CONTA DE
+                    CLIENTE.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
+                    utilização de ECF-RESTAURANTE e balança interligada.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
+                    utilização de ECF-NORMAL e balança interligada.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
+                    utilização de ECF-RESTAURANTE SEM balança interligada.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Bar, Restaurante e estabelecimento similar com
+                    utilização de ECF-NORMAL SEM balança interligada.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Farmácia de Manipulação.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Transporte de Passageiros.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Posto de Pedágio.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Estacionamento, Motéis e Similares, que
+                    pratiquem o
+                    Controle de Tráfego de Veículos ou Pessoas.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Prestador de Serviço de Cinema, Espetáculos ou
+                    Similares.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Demais Atividades.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Estabelecimento Enquadrado no SIMPLES NACIONAL
+                    (Art.
+                    5º do Ato COPETE da ER-PEF-ECF).</label>
             </div>
-        </form>
-    </div>
+        </div>
+    </form>
     <br>
     <h3>5. Identificação do Sistema de Gestão ou Retaguarda que executa pelo menos um dos requisitos atribuídos ao
         PAF-ECF e que, obrigatória e exclusivamente, funciona integrado ao PAF-ECF: </h3>
@@ -441,7 +440,7 @@
         CONTIDAS NESTE FORMULÁRIO SÃO VERDADEIRAS E ESTOU CIENTE QUE SERÃO TRASNCRITAS PARA O "LAUDO DE ANÁLISE
         FUNCIONAL DO PAF-ECF".</label>
     <br>
-    <div class="form-group col-md-4 align-self-end">
+    <div class="form-group col-md-0 align-self-end">
         <button class="btn btn-primary" type="button"> <i class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
     </div>
 @endsection
