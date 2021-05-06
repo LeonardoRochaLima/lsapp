@@ -432,7 +432,7 @@
                 <form class="row">
                     <div class="form-gorup col-md-12">
                         <b>
-                            <p>Este Procedimento tem como referência o documento de Especificação de Requisitos do
+                            <p>Este procedimento tem como referência o documento de Especificação de Requisitos do
                                 PAF-ECF(ER-PAF-ECF) versão ER 02.06, aprovado pelo Ato COPETE/ICMS 37, de 13 de Junho de
                                 2018.</p>
                         </b>
@@ -441,9 +441,11 @@
             </div>
             <br>
             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="control-label">Confirmar: </label>
             <label class="form-check-label" for="defaultCheck1">DECLARO PARA OS DEVIDOS FINS, QUE AS INFORMAÇÕES
                 CONTIDAS NESTE FORMULÁRIO SÃO VERDADEIRAS E ESTOU CIENTE QUE SERÃO TRASNCRITAS PARA O "LAUDO DE ANÁLISE
                 FUNCIONAL DO PAF-ECF".</label>
+            <br>
             <br>
             <div class="form-group col-md-0 align-self-end">
                 <button class="btn btn-primary" type="button"> <i
