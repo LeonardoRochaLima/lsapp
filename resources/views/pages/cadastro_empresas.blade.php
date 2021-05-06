@@ -95,6 +95,9 @@
         <form class="row">
             <div class="form-gorup col-md-12">
                 <label class="control-label">2.1 Identificação: </label>
+                <b>
+                    <p>IFL - Instituto Filadélfia de Londrina</p>
+                </b>
             </div>
         </form>
     </div>
@@ -170,30 +173,30 @@
     </form>
     <br>
     <form class="row">
-            <div class="form-gorup col-md-12">
-                <label class="control-label">4.5 Forma de impressão de um item em cupom fiscal (Concomitância com
-                    dispositivos de visualização do registro do item): </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Concomitante.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não Concomitante com Impressão de DAV.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de
-                        Pré-Venda.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de Conta
-                        Cliente.</label>
-                    <br>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">DAV - emitido sem possibilidade de
-                        impressão.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">DAV - impresso em impressora não fiscal.</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">DAV - Impresso em ECF.</label>
-                </div>
+        <div class="form-gorup col-md-12">
+            <label class="control-label">4.5 Forma de impressão de um item em cupom fiscal (Concomitância com
+                dispositivos de visualização do registro do item): </label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Concomitante.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Não Concomitante com Impressão de DAV.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de
+                    Pré-Venda.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Não concomtante com controle de Conta
+                    Cliente.</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">DAV - emitido sem possibilidade de
+                    impressão.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">DAV - impresso em impressora não fiscal.</label>
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">DAV - Impresso em ECF.</label>
             </div>
+        </div>
     </form>
     <br>
     <form class="row">
@@ -395,52 +398,55 @@
         </form>
     </div>
     <br>
-    <h3>8. Identificação dos Equipamentos ECF Utilizados para a Análise Funcional: </h3>
-    <div class="title-body">
-        <form class="row">
-            <div class="form-gorup col-md-6">
-                <label class="control-label">8.1 Marca:</label>
-                <input class="form-control" type="text">
+    <!Nessa seção eu irei puxar a listagem de ECFs válidas para adicionar no formulário –>
+        <h3>8. Identificação dos Equipamentos ECF Utilizados para a Análise Funcional: </h3>
+        <div class="title-body">
+            <form class="row">
+                <div class="form-gorup col-md-6">
+                    <label class="control-label">8.1 Marca:</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="form-gorup col-md-6">
+                    <label class="control-label">8.2 Modelo:</label>
+                    <input class="form-control" type="text">
+                </div>
+            </form>
+        </div>
+        <br>
+        <!Nessa seção eu irei puxar a listagem de ECFs válidas para adicionar no formulário –>
+            <h3>9. Relação de marcas e modelos de equipamentos ECF compatíveis com o PAF-ECF: </h3>
+            <div class="title-body">
+                <form class="row">
+                    <div class="form-gorup col-md-6">
+                        <label class="control-label">8.1 Marca:</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="form-gorup col-md-6">
+                        <label class="control-label">8.2 Modelo:</label>
+                        <input class="form-control" type="text">
+                    </div>
+                </form>
             </div>
-            <div class="form-gorup col-md-6">
-                <label class="control-label">8.2 Modelo:</label>
-                <input class="form-control" type="text">
+            <h3>10. Introdução: </h3>
+            <div class="title-body">
+                <form class="row">
+                    <div class="form-gorup col-md-12">
+                        <b>
+                            <p>Este Procedimento tem como referência o documento de Especificação de Requisitos do
+                                PAF-ECF(ER-PAF-ECF) versão ER 02.06, aprovado pelo Ato COPETE/ICMS 37, de 13 de Junho de
+                                2018.</p>
+                        </b>
+                    </div>
+                </form>
             </div>
-        </form>
-    </div>
-    <h3>9. Relação de marcas e modelos de equipamentos ECF compatíveis com o PAF-ECF: </h3>
-    <div class="title-body">
-        <form class="row">
-            <div class="form-gorup col-md-6">
-                <label class="control-label">8.1 Marca:</label>
-                <input class="form-control" type="text">
+            <br>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">DECLARO PARA OS DEVIDOS FINS, QUE AS INFORMAÇÕES
+                CONTIDAS NESTE FORMULÁRIO SÃO VERDADEIRAS E ESTOU CIENTE QUE SERÃO TRASNCRITAS PARA O "LAUDO DE ANÁLISE
+                FUNCIONAL DO PAF-ECF".</label>
+            <br>
+            <div class="form-group col-md-0 align-self-end">
+                <button class="btn btn-primary" type="button"> <i
+                        class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
             </div>
-            <div class="form-gorup col-md-6">
-                <label class="control-label">8.2 Modelo:</label>
-                <input class="form-control" type="text">
-            </div>
-        </form>
-    </div>
-    <h3>10. Introdução: </h3>
-    <div class="title-body">
-        <form class="row">
-            <div class="form-gorup col-md-6">
-                <label class="control-label">8.1 Marca:</label>
-                <input class="form-control" type="text">
-            </div>
-            <div class="form-gorup col-md-6">
-                <label class="control-label">8.2 Modelo:</label>
-                <input class="form-control" type="text">
-            </div>
-        </form>
-    </div>
-    <br>
-    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-    <label class="form-check-label" for="defaultCheck1">DECLARO PARA OS DEVIDOS FINS, QUE AS INFORMAÇÕES
-        CONTIDAS NESTE FORMULÁRIO SÃO VERDADEIRAS E ESTOU CIENTE QUE SERÃO TRASNCRITAS PARA O "LAUDO DE ANÁLISE
-        FUNCIONAL DO PAF-ECF".</label>
-    <br>
-    <div class="form-group col-md-0 align-self-end">
-        <button class="btn btn-primary" type="button"> <i class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
-    </div>
 @endsection
