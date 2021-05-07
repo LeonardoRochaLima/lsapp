@@ -2,133 +2,133 @@
 
 @section('content')
     <h1>{{ $title }}</h1>
-    <h3>1. Empresa Desenvolvedora Requerente: </h3>
+    <h3>Empresa Desenvolvedora Requerente: </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-6">
-                <label class="control-label">1.1 Razão Social</label>
-                <input class="form-control" type="text">
+                <label for="razao_social" class="control-label">Razão Social</label>
+                <input id="razao_social" class="form-control" type="text" required x-moz-errormessage="Ops.
+                Não esqueça de preencher este campo.">
             </div>
             <div class="form-group col-md-6">
-                <label class="control-label">1.2 Nome Fantasia</label>
+                <label class="control-label">Nome Fantasia</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form group col-md-6">
-                <label class="control-label">1.3 Endereço</label>
+                <label class="control-label">Endereço</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form group col-md-6">
-                <label class="control-label">1.4 Bairro</label>
+                <label class="control-label">Bairro</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form group col-md-4">
-                <label class="control-label">1.5 Cidade</label>
+                <label class="control-label">Cidade</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form group col-md-4">
-                <label class="control-label">1.6 UF</label>
+                <label class="control-label">UF</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form group col-md-4">
-                <label class="control-label">1.7 CEP</label>
-                <input class="form-control" type="text">
+                <label class="control-label">CEP</label>
+                <input class="form-control" required="required" type="number" type="cellphone">
             </div>
         </form>
         <form class="row">
             <div class="form group col-md-6">
-                <label class="control-label">1.8 Telefone</label>
-                <input class="form-control" type="text">
+                <label class="control-label">Telefone</label>
+                <input class="form-control" pattern="^\d{4}-\d{3}-\d{4}$" type="tel">
             </div>
             <div class="form group col-md-6">
-                <label class="control-label">1.9 Celular</label>
+                <label class="control-label">Celular</label>
+                <input class="form-control" pattern="^\d{4}-\d{3}-\d{4}$" type="tel">
+            </div>
+        </form>
+        <form class="row">
+            <div class="form group col-md-4">
+                <label class="control-label">CNPJ</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form group col-md-4">
+                <label class="control-label">Inscrição Estadual</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form group col-md-4">
+                <label class="control-label">Inscrição Municipal</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form group col-md-4">
-                <label class="control-label">1.10 CNPJ</label>
+                <label class="control-label">Responsável pela Assinatura</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form group col-md-4">
-                <label class="control-label">1.11 Inscrição Estadual</label>
+                <label class="control-label">CPF do Responsável</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form group col-md-4">
-                <label class="control-label">1.11 Inscrição Municipal</label>
-                <input class="form-control" type="text">
-            </div>
-        </form>
-        <form class="row">
-            <div class="form group col-md-4">
-                <label class="control-label">1.12 Responsável pela Assinatura</label>
-                <input class="form-control" type="text">
-            </div>
-            <div class="form group col-md-4">
-                <label class="control-label">1.13 CPF do Responsável</label>
-                <input class="form-control" type="text">
-            </div>
-            <div class="form group col-md-4">
-                <label class="control-label">1.14 RG do Responsável</label>
+                <label class="control-label">RG do Responsável</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form group col-md-12">
-                <label class="control-label">1.15 Email do responsável</label>
-                <input class="form-control" type="text">
+                <label class="control-label">Email do responsável</label>
+                <input class="form-control" type="email">
             </div>
         </form>
         <form class="row">
             <div class="form group col-md-12">
-                <label>1.16 Responsável pela Acompanhamento dos Testes</label>
+                <label class="control-label">Responsável pela Acompanhamento dos Testes</label>
                 <input class="form-control" type="text">
             </div>
         </form>
     </div>
     <br>
-    <h3>2. Órgão Técnico Credenciado: </h3>
+    <h3>Órgão Técnico Credenciado: </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">2.1 Identificação: </label>
                 <b>
-                    <p>IFL - Instituto Filadélfia de Londrina</p>
+                    <p>IFL - Instituto Filadélfia de Londrina - UNIFIL</p>
                 </b>
             </div>
         </form>
     </div>
-    <h3>3. Identificação do Programa Aplicativo Fiscal (PAF-ECF): </h3>
+    <h3>Identificação do Programa Aplicativo Fiscal (PAF-ECF): </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">3.1 Nome Comercial</label>
+                <label class="control-label">Nome Comercial</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form-gorup col-md-6">
-                <label class="control-label">3.2 Versão</label>
+                <label class="control-label">Versão</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form-group col-md-6">
-                <label class="control-label">3.3 Data da Versão</label>
+                <label class="control-label">Data da Versão</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">3.3 Principal Arquivo Executável</label>
+                <label class="control-label">Principal Arquivo Executável</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <br>
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">3.4 Perfis a serem homologados</label>
+                <label class="control-label">Perfis a serem homologados</label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Perfil V</label>
@@ -140,26 +140,26 @@
             </div>
         </form>
     </div>
-    <h3>4. Características do Programa Aplicativo FIscal: </h3>
+    <h3>Características do Programa Aplicativo FIscal: </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-4">
-                <label class="control-label">4.1 Linguagem de Programação</label>
+                <label class="control-label">Linguagem de Programação</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form-gorup col-md-4">
-                <label class="control-label">4.2 Sistem Operacional</label>
+                <label class="control-label">Sistem Operacional</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form-gorup col-md-4">
-                <label class="control-label">4.3 Banco de Dados</label>
+                <label class="control-label">Banco de Dados</label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <br>
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">4.4 Tipo de Desenvolvimento</label>
+                <label class="control-label">Tipo de Desenvolvimento</label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">Comercializável</label>
@@ -174,7 +174,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.5 Forma de impressão de um item em cupom fiscal (Concomitância com
+            <label class="control-label">Forma de impressão de um item em cupom fiscal (Concomitância com
                 dispositivos de visualização do registro do item): </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -201,7 +201,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.6 Tipo de Funcionamento: </label>
+            <label class="control-label">Tipo de Funcionamento: </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Exclusivamente Stand Alone</label>
@@ -215,7 +215,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.7 Geração do Arquivo SINTEGRA ou EFD(SPED): </label>
+            <label class="control-label">Geração do Arquivo SINTEGRA ou EFD(SPED): </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Pelo PAF</label>
@@ -229,7 +229,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.8 Emite Nota Fiscal Eletrônica - NF-e: </label>
+            <label class="control-label">Emite Nota Fiscal Eletrônica - NF-e: </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Sim</label>
@@ -238,7 +238,7 @@
             </div>
         </div>
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.9 Emite Nota Fiscal Consumidor Eletrônica - NFC-e: </label>
+            <label class="control-label">Emite Nota Fiscal Consumidor Eletrônica - NFC-e: </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Sim</label>
@@ -250,7 +250,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.10 Tratamento de Interrupção durante a emissão do cupom fiscal: </label>
+            <label class="control-label">Tratamento de Interrupção durante a emissão do cupom fiscal: </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Recuperação de Dados.</label>
@@ -264,7 +264,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.11 Integração do Programa Aplicativo Fiscal: </label>
+            <label class="control-label">Integração do Programa Aplicativo Fiscal: </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Com Sistema de Gestão ou Retaguarda.</label>
@@ -280,7 +280,7 @@
     <br>
     <form class="row">
         <div class="form-gorup col-md-12">
-            <label class="control-label">4.12 Aplicações Especiais: </label>
+            <label class="control-label">Aplicações Especiais: </label>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">Posto Revendedor de Combustível COM sistema de
@@ -336,98 +336,108 @@
         </div>
     </form>
     <br>
-    <h3>5. Identificação do Sistema de Gestão ou Retaguarda que executa pelo menos um dos requisitos atribuídos ao
+    <h3>Identificação do Sistema de Gestão ou Retaguarda que executa pelo menos um dos requisitos atribuídos ao
         PAF-ECF e que, obrigatória e exclusivamente, funciona integrado ao PAF-ECF: </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-6">
-                <label class="control-label">5.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
+                <label class="control-label">Empresa Desenvolvedora: (Denominação e CNPJ):</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form-gorup col-md-6">
-                <label class="control-label">5.2 Nome do Sistema: </label>
+                <label class="control-label">Nome do Sistema: </label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">5.3 Requisitos(s) Executado(s):</label>
+                <label class="control-label">Requisitos(s) Executado(s):</label>
                 <input class="form-control" type="text">
             </div>
         </form>
     </div>
     <br>
-    <h3>6. Identificação dos Sistemas de PED (SPED/SINTEGRA/DOCUMENTOS/LIVROS) que Funcionam Integrados ao PAF-ECF:
+    <h3>Identificação dos Sistemas de PED (SPED/SINTEGRA/DOCUMENTOS/LIVROS) que Funcionam Integrados ao PAF-ECF:
     </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-6">
-                <label class="control-label">6.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
+                <label class="control-label">Empresa Desenvolvedora: (Denominação e CNPJ):</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form-gorup col-md-6">
-                <label class="control-label">6.2 Nome do Sistema: </label>
+                <label class="control-label">Nome do Sistema: </label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">6.3 Nome do arquivo Executável:</label>
+                <label class="control-label">Nome do arquivo Executável:</label>
                 <input class="form-control" type="text">
             </div>
         </form>
     </div>
     <br>
-    <h3>7. Identificação dos Sistemas de PED que geram a NF-e e funcionam integrados ao PAF-ECF: </h3>
+    <h3>Identificação dos Sistemas de PED que geram a NF-e e funcionam integrados ao PAF-ECF: </h3>
     <div class="title-body">
         <form class="row">
             <div class="form-gorup col-md-6">
-                <label class="control-label">7.1 Empresa Desenvolvedora: (Denominação e CNPJ):</label>
+                <label class="control-label">Empresa Desenvolvedora: (Denominação e CNPJ):</label>
                 <input class="form-control" type="text">
             </div>
             <div class="form-gorup col-md-6">
-                <label class="control-label">7.2 Nome do Sistema: </label>
+                <label class="control-label">Nome do Sistema: </label>
                 <input class="form-control" type="text">
             </div>
         </form>
         <form class="row">
             <div class="form-gorup col-md-12">
-                <label class="control-label">7.3 Nome do arquivo Executável:</label>
+                <label class="control-label">Nome do arquivo Executável:</label>
                 <input class="form-control" type="text">
             </div>
         </form>
     </div>
     <br>
     <!Nessa seção eu irei puxar a listagem de ECFs válidas para adicionar no formulário –>
-        <h3>8. Identificação dos Equipamentos ECF Utilizados para a Análise Funcional: </h3>
+        <h3>Identificação dos Equipamentos ECF Utilizados para a Análise Funcional: </h3>
         <div class="title-body">
             <form class="row">
                 <div class="form-gorup col-md-6">
-                    <label class="control-label">8.1 Marca:</label>
-                    <input class="form-control" type="text">
-                </div>
-                <div class="form-gorup col-md-6">
-                    <label class="control-label">8.2 Modelo:</label>
-                    <input class="form-control" type="text">
+                    <label class="control-label">Marca/Modelo:</label>
+                    <select name="ecf">
+                        <option value=""></option>
+                        <option value="BEMATECH">BEMATECH - MP-3000 TH FI</option>
+                        <option value="BEMATECH">BEMATECH - MP-4000 TH FI</option>
+                        <option value="BEMATECH">BEMATECH - MP-4200 TH FI</option>
+                        <option value="BEMATECH">BEMATECH - MP-4200 TH FI II</option>
+                        <option value="EPSON">EPSON - TM-T88 FB</option>
+                        <option value="EPSON">EPSON - TM-T81 FBII</option>
+                        <option value="EPSON">EPSON - TM-T800F</option>
+                        <option value="EPSON">EPSON - TM-T900F</option>
+                        <option value="SWEDA">SWEDA - IF ST120</option>
+                        <option value="SWEDA">SWEDA - IF ST200</option>
+                        <option value="SWEDA">SWEDA - IF ST2000</option>
+                        <option value="SWEDA">SWEDA - IF ST2500</option>
+                    </select>
                 </div>
             </form>
         </div>
         <br>
         <!Nessa seção eu irei puxar a listagem de ECFs válidas para adicionar no formulário –>
-            <h3>9. Relação de marcas e modelos de equipamentos ECF compatíveis com o PAF-ECF: </h3>
+            <h3>Relação de marcas e modelos de equipamentos ECF compatíveis com o PAF-ECF: </h3>
             <div class="title-body">
                 <form class="row">
                     <div class="form-gorup col-md-6">
-                        <label class="control-label">8.1 Marca:</label>
+                        <label class="control-label">Marca:</label>
                         <input class="form-control" type="text">
                     </div>
                     <div class="form-gorup col-md-6">
-                        <label class="control-label">8.2 Modelo:</label>
+                        <label class="control-label">Modelo:</label>
                         <input class="form-control" type="text">
                     </div>
                 </form>
             </div>
-            <h3>10. Introdução: </h3>
+            <h3>Conclusão: </h3>
             <div class="title-body">
                 <form class="row">
                     <div class="form-gorup col-md-12">
