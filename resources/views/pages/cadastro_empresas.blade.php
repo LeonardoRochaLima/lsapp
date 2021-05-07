@@ -8,7 +8,7 @@
             <div class="form-gorup col-md-6">
                 <label for="razao_social" class="control-label">Razão Social</label>
                 <input id="razao_social" class="form-control" type="text" required x-moz-errormessage="Ops.
-                Não esqueça de preencher este campo.">
+                                        Não esqueça de preencher este campo.">
             </div>
             <div class="form-group col-md-6">
                 <label class="control-label">Nome Fantasia</label>
@@ -161,12 +161,12 @@
             <div class="form-gorup col-md-12">
                 <label class="control-label">Tipo de Desenvolvimento</label>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Comercializável</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Exclusivo Próprio</label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">Exclusivo Tercerizado</label>
+                    <input type="radio" id="comercializavel" name="lista" value="comercializavel">
+                    <label for="comercializavel">Comercializável</label>
+                    <input type="radio" id="exclusivoP" name="lista" value="exclusivoP">
+                    <label for="exclusivoP">Exclusivo Próprio</label>
+                    <input type="radio" id="exclusivoT" name="lista" value="exclusivoT">
+                    <label for="exclusivoT">Exclusivo Tercerizado</label>
                 </div>
             </div>
     </div>
@@ -203,12 +203,12 @@
         <div class="form-gorup col-md-12">
             <label class="control-label">Tipo de Funcionamento: </label>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Exclusivamente Stand Alone</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Em rede</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Parametrizável</label>
+                <input type="radio" id="standAlone" name="lista" value="standAlone">
+                <label for="standAlone">Exclusivamente Stand Alone</label>
+                <input type="radio" id="rede" name="lista" value="rede">
+                <label for="rede">Em rede</label>
+                <input type="radio" id="parametrizavel" name="lista" value="parametrizavel">
+                <label for="parametrizavel">Parametrizável</label>
             </div>
         </div>
     </form>
@@ -217,12 +217,12 @@
         <div class="form-gorup col-md-12">
             <label class="control-label">Geração do Arquivo SINTEGRA ou EFD(SPED): </label>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Pelo PAF</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Pelo Sistema de Retaguarda</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Pelo Sistema PED ou EFD</label>
+                <input type="radio" id="pelopaf" name="lista" value="pelopaf">
+                <label for="pelopaf">Pelo PAF</label>
+                <input type="radio" id="retaguarda" name="lista" value="retaguarda">
+                <label for="retaguarda">Pelo Sistema de Retaguarda</label>
+                <input type="radio" id="pedefd" name="lista" value="pedefd">
+                <label for="pedefd">Pelo Sistema PED ou EFD</label>
             </div>
         </div>
     </form>
@@ -231,19 +231,19 @@
         <div class="form-gorup col-md-12">
             <label class="control-label">Emite Nota Fiscal Eletrônica - NF-e: </label>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Sim</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Não</label>
+                <input type="radio" id="yes" name="lista">
+                <label for="yes">Sim</label>
+                <input type="radio" id="no" name="lista">
+                <label for="no">Não</label>
             </div>
         </div>
         <div class="form-gorup col-md-12">
             <label class="control-label">Emite Nota Fiscal Consumidor Eletrônica - NFC-e: </label>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Sim</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Não</label>
+                <input type="radio" id="yes" name="lista2">
+                <label for="yes">Sim</label>
+                <input type="radio" id="no" name="lista2">
+                <label for="no">Não</label>
             </div>
         </div>
     </form>
@@ -252,12 +252,12 @@
         <div class="form-gorup col-md-12">
             <label class="control-label">Tratamento de Interrupção durante a emissão do cupom fiscal: </label>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Recuperação de Dados.</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Cancelamento Automático.</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Bloqueio de Funções.</label>
+                <input type="radio" id="recupera" name="lista">
+                <label for="recupera">Recuperação de Dados</label>
+                <input type="radio" id="cancela" name="lista">
+                <label for="cancela">Cancelamento Automático</label>
+                <input type="radio" id="bloqueia" name="lista">
+                <label for="bloqueia">Bloqueio de Funções</label>
             </div>
         </div>
     </form>
@@ -266,14 +266,14 @@
         <div class="form-gorup col-md-12">
             <label class="control-label">Integração do Programa Aplicativo Fiscal: </label>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Com Sistema de Gestão ou Retaguarda.</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Com Sistema PED.</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Com Ambos.</label>
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Não Integrado.</label>
+                <input type="radio" id="retaguarda" name="lista">
+                <label for="retaguarda">Com Sistema de Gestão ou Retaguarda</label>
+                <input type="radio" id="ped" name="lista">
+                <label for="ped">Com Sistema PED</label>
+                <input type="radio" id="ambos" name="lista">
+                <label for="ambos">Com Ambos</label>
+                <input type="radio" id="nIntegrado" name="lista">
+                <label for="nIntegrado">Não Integrado</label>
             </div>
         </div>
     </form>
@@ -461,4 +461,4 @@
                 <button class="btn btn-primary" type="button"> <i
                         class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
             </div>
-@endsection
+        @endsection
