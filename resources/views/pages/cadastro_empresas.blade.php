@@ -428,12 +428,22 @@
             <div class="title-body">
                 <form class="row">
                     <div class="form-gorup col-md-6">
-                        <label class="control-label">Marca:</label>
-                        <input class="form-control" type="text">
-                    </div>
-                    <div class="form-gorup col-md-6">
-                        <label class="control-label">Modelo:</label>
-                        <input class="form-control" type="text">
+                        <label class="control-label">Marca/Modelo:</label>
+                        <select name="ecf">
+                            <option value=""></option>
+                            <option value="BEMATECH">BEMATECH - MP-3000 TH FI</option>
+                            <option value="BEMATECH">BEMATECH - MP-4000 TH FI</option>
+                            <option value="BEMATECH">BEMATECH - MP-4200 TH FI</option>
+                            <option value="BEMATECH">BEMATECH - MP-4200 TH FI II</option>
+                            <option value="EPSON">EPSON - TM-T88 FB</option>
+                            <option value="EPSON">EPSON - TM-T81 FBII</option>
+                            <option value="EPSON">EPSON - TM-T800F</option>
+                            <option value="EPSON">EPSON - TM-T900F</option>
+                            <option value="SWEDA">SWEDA - IF ST120</option>
+                            <option value="SWEDA">SWEDA - IF ST200</option>
+                            <option value="SWEDA">SWEDA - IF ST2000</option>
+                            <option value="SWEDA">SWEDA - IF ST2500</option>
+                        </select>
                     </div>
                 </form>
             </div>
@@ -461,4 +471,4 @@
                 <button class="btn btn-primary" type="button"> <i
                         class="fa fa-fw fa-lg fa-check-circle"></i>Cadastrar</button>
             </div>
-        @endsection
+@endsection
